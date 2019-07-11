@@ -1,18 +1,23 @@
-*{
-    margin:0;
-}
-
 .hero{
     background-image: url(../images/cover.jpg);
+    /* background-repeat: no-repeat; */
+    background-size: cover;
     height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: flex-end;
+    position: relative;
 }
 
 .hero__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 290px;
     text-align: center;
+}
+
+.hero__info{
+    transform: translateY(50%);
 }
 
 .hero__title{
@@ -31,17 +36,19 @@
 }
 
 .hero__icon{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 52px;
     width: 45px;
     height: 45px;
     background: white;
     border-radius: 50%;
-    transform: translateX(123px);
+    position: absolute;
+    top: 80vh;
+    left: 45vw;
+    //centrar flechita
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.hero__link-icon{
-    margin-top: 2px;
+.hero__link-icon{ 
+    margin-top: 3px;
 }
