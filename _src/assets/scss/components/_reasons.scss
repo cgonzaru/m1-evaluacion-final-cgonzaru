@@ -42,6 +42,12 @@
 .reasons__container-button{
     margin: 30px;
     text-align: center;
+    transition: background-color .8s;
+
+    &:hover .reasons__button{
+        background-color:white;
+        color:#f26002;
+    }
 }
 
 .reasons__button{
