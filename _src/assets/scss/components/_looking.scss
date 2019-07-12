@@ -53,7 +53,7 @@
 }
 
 .looking__go{
-    border: 2px solid #f26002;
+    border: 2px solid $color-orange;
     border-radius: 22.5px;
     width: 76px;
     height: 45px;
@@ -64,9 +64,9 @@
     transition: background-color .5s;
 
     &:hover {
-        background-color:#f26002;
+        background-color: $color-orange;
         .looking__link{
-            color:white;
+            color:$color-white;
         }
     }
 
@@ -83,7 +83,7 @@
 
 .looking__link{
     text-decoration: none;
-    color:#f26002;
+    color: $color-orange;
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
 }

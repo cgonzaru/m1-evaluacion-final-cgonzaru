@@ -43,7 +43,7 @@
 .hero__title{
     font-family: 'Roboto Slab', serif;
     font-weight: bold;
-    color: white;
+    color: $color-white;
     font-size: 42px;
     text-transform: uppercase;
     
@@ -59,7 +59,7 @@
 }
 
 .hero__text{
-    color: white;
+    color: $color-white;
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
     margin: 10px 15px 50px;
@@ -73,7 +73,7 @@
 .hero__icon{
     width: 45px;
     height: 45px;
-    background: white;
+    background: $color-white;
     border-radius: 50%;
     text-align: center;
 }

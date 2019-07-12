@@ -81,16 +81,16 @@
     transition: background-color .8s;
 
     &:hover .reasons__button{
-        background-color:white;
-        color:#f26002;
+        background-color: $color-white;
+        color: $color-orange;
     }
 }
 
 .reasons__button{
-    color: white;
+    color: $color-white;
     font-size: 20px;
-    background-color: #f26002;
-    border: 2px solid #f26002;
+    background-color: $color-orange;
+    border: 2px solid $color-orange;
     border-radius: 22.5px;
     width: 184px;
     height: 45px;
@@ -107,7 +107,7 @@
 }
 
 .reasons__arrow{
-    background-color:white;
+    background-color: $color-white;
     width: 45px;
     height: 45px;
     border-radius: 50%;
