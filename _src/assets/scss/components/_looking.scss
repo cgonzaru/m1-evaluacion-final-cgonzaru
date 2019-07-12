@@ -17,6 +17,7 @@
     font-size: 14px;
     color: #8ccbea;
     margin: 30px 0 10px;
+    line-height: 30px;
 
     /* TABLET */
     @media all and (min-width: 768px){
@@ -28,21 +29,25 @@
     font-size: 24px;
     font-family: 'Roboto Slab', serif;
     font-weight: bold;
+    line-height: 30px;
     
     /* TABLET */
     @media all and (min-width: 768px){
         font-size: 26px;
+        line-height: 45px;
     }
 
     /* DESKTOP */
     @media all and (min-width: 1200px){
         font-size: 32px;
+        line-height: 45px;
     }
 }
 
 .looking__text{
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
+    line-height: 30px;
     text-align: justify;
     margin: 15px 0;
     
