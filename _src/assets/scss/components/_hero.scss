@@ -34,8 +34,8 @@
         margin-top: 45vh;
     }
 
-    /* TABLET */
-    @media all and (min-width: 768px){
+    /* DESKTOP */
+    @media all and (min-width: 1200px){
         margin-top: 38vh;
     }
 }
@@ -76,13 +76,11 @@
     background: white;
     border-radius: 50%;
     text-align: center;
-    
-    //centrar flechita
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .hero__link-icon{ 
-    margin-top: 3px;
+    display: flex;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
 }
