@@ -129,6 +129,21 @@
     align-items: center;
 }
 
+.reasons__img-icon{
+    animation-duration: 4s;
+    animation-name: spin;
+    
+    @keyframes spin {
+        from{
+            transform: rotateY(0deg);
+        }
+        
+        to{
+            transform: rotateY(360deg);
+        }
+    }
+}
+
 .reasons__grid{
     /* TABLET */
     @media all and (min-width: 768px){
