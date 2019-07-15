@@ -1,0 +1,22 @@
+.newsection{
+    background-color: $color-orange;
+    padding: 20px 0;
+    @media all and (min-width: 768px){
+        padding:20px;
+        background-color: $color-blue;
+    }
+}
+
+.newsection__content{
+    text-align: center;
+    color:white;
+    @media all and (min-width:768px){
+        display:flex;
+        justify-content: space-between;
+        
+    }
+}
+
+.newsection__day{
+    color:white;
+}
